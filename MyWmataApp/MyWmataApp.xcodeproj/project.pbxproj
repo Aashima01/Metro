@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13C6D7C1D19DC9400F20D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6D7B1D19DC9400F20D79 /* main.m */; };
+		F13C6D7F1D19DC9400F20D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6D7E1D19DC9400F20D79 /* AppDelegate.m */; };
+		F13C6D851D19DC9400F20D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D831D19DC9400F20D79 /* Main.storyboard */; };
+		F13C6D871D19DC9400F20D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D861D19DC9400F20D79 /* Assets.xcassets */; };
+		F13C6D8A1D19DC9400F20D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D881D19DC9400F20D79 /* LaunchScreen.storyboard */; };
+		F13C6D931D19DD2D00F20D79 /* LinesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6D921D19DD2D00F20D79 /* LinesTableViewController.m */; };
+		F13C6D961D19E88C00F20D79 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6D951D19E88C00F20D79 /* Line.m */; };
+		F13C6D991D1B106900F20D79 /* Stations.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6D981D1B106800F20D79 /* Stations.m */; };
+		F13C6DA11D1B34A800F20D79 /* blue.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9A1D1B34A800F20D79 /* blue.json */; };
+		F13C6DA21D1B34A800F20D79 /* green.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9B1D1B34A800F20D79 /* green.json */; };
+		F13C6DA31D1B34A800F20D79 /* red.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9C1D1B34A800F20D79 /* red.json */; };
+		F13C6DA41D1B34A800F20D79 /* orange.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9D1D1B34A800F20D79 /* orange.json */; };
+		F13C6DA51D1B34A800F20D79 /* lines.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9E1D1B34A800F20D79 /* lines.json */; };
+		F13C6DA61D1B34A800F20D79 /* yellow.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6D9F1D1B34A800F20D79 /* yellow.json */; };
+		F13C6DA71D1B34A800F20D79 /* silver.json in Resources */ = {isa = PBXBuildFile; fileRef = F13C6DA01D1B34A800F20D79 /* silver.json */; };
+		F13C6DAA1D1B392F00F20D79 /* StationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6DA91D1B392F00F20D79 /* StationTableViewController.m */; };
+		F13C6DAD1D1C5B5C00F20D79 /* NextTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = F13C6DAC1D1C5B5C00F20D79 /* NextTrain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13C6D771D19DC9300F20D79 /* MyWmataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWmataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13C6D7B1D19DC9400F20D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13C6D7D1D19DC9400F20D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13C6D7E1D19DC9400F20D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13C6D841D19DC9400F20D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13C6D861D19DC9400F20D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13C6D891D19DC9400F20D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13C6D8B1D19DC9400F20D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13C6D911D19DD2D00F20D79 /* LinesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinesTableViewController.h; sourceTree = "<group>"; };
+		F13C6D921D19DD2D00F20D79 /* LinesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinesTableViewController.m; sourceTree = "<group>"; };
+		F13C6D941D19E88C00F20D79 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		F13C6D951D19E88C00F20D79 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		F13C6D971D1B106800F20D79 /* Stations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stations.h; sourceTree = "<group>"; };
+		F13C6D981D1B106800F20D79 /* Stations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stations.m; sourceTree = "<group>"; };
+		F13C6D9A1D1B34A800F20D79 /* blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blue.json; sourceTree = "<group>"; };
+		F13C6D9B1D1B34A800F20D79 /* green.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = green.json; sourceTree = "<group>"; };
+		F13C6D9C1D1B34A800F20D79 /* red.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = red.json; sourceTree = "<group>"; };
+		F13C6D9D1D1B34A800F20D79 /* orange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orange.json; sourceTree = "<group>"; };
+		F13C6D9E1D1B34A800F20D79 /* lines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lines.json; sourceTree = "<group>"; };
+		F13C6D9F1D1B34A800F20D79 /* yellow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yellow.json; sourceTree = "<group>"; };
+		F13C6DA01D1B34A800F20D79 /* silver.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = silver.json; sourceTree = "<group>"; };
+		F13C6DA81D1B392F00F20D79 /* StationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationTableViewController.h; sourceTree = "<group>"; };
+		F13C6DA91D1B392F00F20D79 /* StationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationTableViewController.m; sourceTree = "<group>"; };
+		F13C6DAB1D1C5B5C00F20D79 /* NextTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextTrain.h; sourceTree = "<group>"; };
+		F13C6DAC1D1C5B5C00F20D79 /* NextTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextTrain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13C6D741D19DC9300F20D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13C6D6E1D19DC9300F20D79 = {
+			isa = PBXGroup;
+			children = (
+				F13C6D791D19DC9400F20D79 /* MyWmataApp */,
+				F13C6D781D19DC9300F20D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13C6D781D19DC9300F20D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13C6D771D19DC9300F20D79 /* MyWmataApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13C6D791D19DC9400F20D79 /* MyWmataApp */ = {
+			isa = PBXGroup;
+			children = (
+				F13C6D7D1D19DC9400F20D79 /* AppDelegate.h */,
+				F13C6D7E1D19DC9400F20D79 /* AppDelegate.m */,
+				F13C6D831D19DC9400F20D79 /* Main.storyboard */,
+				F13C6D861D19DC9400F20D79 /* Assets.xcassets */,
+				F13C6D881D19DC9400F20D79 /* LaunchScreen.storyboard */,
+				F13C6D8B1D19DC9400F20D79 /* Info.plist */,
+				F13C6D7A1D19DC9400F20D79 /* Supporting Files */,
+			);
+			path = MyWmataApp;
+			sourceTree = "<group>";
+		};
+		F13C6D7A1D19DC9400F20D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13C6D9A1D1B34A800F20D79 /* blue.json */,
+				F13C6D9B1D1B34A800F20D79 /* green.json */,
+				F13C6D9C1D1B34A800F20D79 /* red.json */,
+				F13C6D9D1D1B34A800F20D79 /* orange.json */,
+				F13C6D9E1D1B34A800F20D79 /* lines.json */,
+				F13C6D9F1D1B34A800F20D79 /* yellow.json */,
+				F13C6DA01D1B34A800F20D79 /* silver.json */,
+				F13C6D911D19DD2D00F20D79 /* LinesTableViewController.h */,
+				F13C6D921D19DD2D00F20D79 /* LinesTableViewController.m */,
+				F13C6D7B1D19DC9400F20D79 /* main.m */,
+				F13C6D941D19E88C00F20D79 /* Line.h */,
+				F13C6D951D19E88C00F20D79 /* Line.m */,
+				F13C6D971D1B106800F20D79 /* Stations.h */,
+				F13C6D981D1B106800F20D79 /* Stations.m */,
+				F13C6DA81D1B392F00F20D79 /* StationTableViewController.h */,
+				F13C6DA91D1B392F00F20D79 /* StationTableViewController.m */,
+				F13C6DAB1D1C5B5C00F20D79 /* NextTrain.h */,
+				F13C6DAC1D1C5B5C00F20D79 /* NextTrain.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13C6D761D19DC9300F20D79 /* MyWmataApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13C6D8E1D19DC9400F20D79 /* Build configuration list for PBXNativeTarget "MyWmataApp" */;
+			buildPhases = (
+				F13C6D731D19DC9300F20D79 /* Sources */,
+				F13C6D741D19DC9300F20D79 /* Frameworks */,
+				F13C6D751D19DC9300F20D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWmataApp;
+			productName = MyWmataApp;
+			productReference = F13C6D771D19DC9300F20D79 /* MyWmataApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13C6D6F1D19DC9300F20D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aashima Singh";
+				TargetAttributes = {
+					F13C6D761D19DC9300F20D79 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F13C6D721D19DC9300F20D79 /* Build configuration list for PBXProject "MyWmataApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13C6D6E1D19DC9300F20D79;
+			productRefGroup = F13C6D781D19DC9300F20D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13C6D761D19DC9300F20D79 /* MyWmataApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13C6D751D19DC9300F20D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C6DA21D1B34A800F20D79 /* green.json in Resources */,
+				F13C6D8A1D19DC9400F20D79 /* LaunchScreen.storyboard in Resources */,
+				F13C6DA11D1B34A800F20D79 /* blue.json in Resources */,
+				F13C6D871D19DC9400F20D79 /* Assets.xcassets in Resources */,
+				F13C6D851D19DC9400F20D79 /* Main.storyboard in Resources */,
+				F13C6DA51D1B34A800F20D79 /* lines.json in Resources */,
+				F13C6DA61D1B34A800F20D79 /* yellow.json in Resources */,
+				F13C6DA31D1B34A800F20D79 /* red.json in Resources */,
+				F13C6DA71D1B34A800F20D79 /* silver.json in Resources */,
+				F13C6DA41D1B34A800F20D79 /* orange.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13C6D731D19DC9300F20D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13C6DAD1D1C5B5C00F20D79 /* NextTrain.m in Sources */,
+				F13C6DAA1D1B392F00F20D79 /* StationTableViewController.m in Sources */,
+				F13C6D7F1D19DC9400F20D79 /* AppDelegate.m in Sources */,
+				F13C6D961D19E88C00F20D79 /* Line.m in Sources */,
+				F13C6D931D19DD2D00F20D79 /* LinesTableViewController.m in Sources */,
+				F13C6D991D1B106900F20D79 /* Stations.m in Sources */,
+				F13C6D7C1D19DC9400F20D79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13C6D831D19DC9400F20D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C6D841D19DC9400F20D79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13C6D881D19DC9400F20D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C6D891D19DC9400F20D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13C6D8C1D19DC9400F20D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13C6D8D1D19DC9400F20D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13C6D8F1D19DC9400F20D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWmataApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashima.MyWmataApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13C6D901D19DC9400F20D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWmataApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashima.MyWmataApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13C6D721D19DC9300F20D79 /* Build configuration list for PBXProject "MyWmataApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13C6D8C1D19DC9400F20D79 /* Debug */,
+				F13C6D8D1D19DC9400F20D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13C6D8E1D19DC9400F20D79 /* Build configuration list for PBXNativeTarget "MyWmataApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13C6D8F1D19DC9400F20D79 /* Debug */,
+				F13C6D901D19DC9400F20D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13C6D6F1D19DC9300F20D79 /* Project object */;
+}
